@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    path: './src/assets/**/*',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
